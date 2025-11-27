@@ -21,7 +21,12 @@ main {
   gap: 1ch;
 }
 
-.brand {font-size: 55px;}
+p.brand {text-align: center;
+  font-size: 75px;}
+
+  /* display: flex
+  font-size: 55px; 
+  justify-content: space-evenly;};} */
 
 ul {
   display: flex;
