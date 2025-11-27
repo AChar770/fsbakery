@@ -1,16 +1,51 @@
 * {
-  margin: 25%;
-  padding: 25%;
-  box-sizing: border-box;}
+  margin: 15px;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: cursive;
+}
 
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh}
+  height: 100vh;
+}
 
-body {
+main {
+  flex: 1;
+
+  display: flex;
+  gap: 1ch;
+}
+
+.brand {font-size: 55px;}
+
+ul {
   display: flex;
   flex-direction: column;
-  height: 100vh;}
+  list-style: none;
+}
 
-  
+li {
+  background-color: blueviolet;
+  margin-bottom: 1 rem;
+  padding: .6rem;
+  border-radius: 7rem;
+  width: 200px;
+}
+
+p {
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  border-radius: 12px;
+  margin: 2rem;
+  padding: 1rem;}
+
+.testimonial {font-weight: 1000;}
+
+nav a {color: blueviolet;
+  font-size: 30px;
+}
